@@ -8,6 +8,7 @@ public class PrimeNumber {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int count = 0;
+        
         // Check if the given number is prime
         for (int i = 1; i <= n; i++) {
             if(n % i == 0) {
